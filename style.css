@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFEFD5; /* Light pale orange background */
+    color: #333; /* Greyish black text color */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* White background for container */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    max-width: 150px;
+}
+
+h1, h2, h3 {
+    color: #333; /* Greyish black text color for headings */
+}
+
+ul {
+    list-style-type: disc; /* Use bullets for lists */
+}
+
+ul li {
+    margin-bottom: 5px;
+}
