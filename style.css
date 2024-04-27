@@ -1,14 +1,13 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #FFEFD5; /* Light pale orange background */
+    background-image: url('zaini-izzuddin-55btQzyDiO8-unsplash.jpg'); /* Image as background */
     color: #333; /* Greyish black text color */
 }
-
 .container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #fff; /* White background for container */
+    background-color: rgba(255, 255, 255, 0.8); /* White background with transparency for readability */
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
