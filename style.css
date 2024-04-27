@@ -2,12 +2,12 @@ body {
     font-family: Arial, sans-serif;
     background-image: url('zaini-izzuddin-55btQzyDiO8-unsplash.jpg'); /* Image as background */
     color: #333; /* Greyish black text color */
+    position: relative; /* Make body relative for absolute positioning of overlay */
 }
 .container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.8); /* White background with transparency for readability */
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -31,4 +31,13 @@ ul {
 
 ul li {
     margin-bottom: 5px;
+}
+body::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Black shade with 50% opacity */
 }
